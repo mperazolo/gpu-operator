@@ -15,9 +15,9 @@ DOCKERFILE       ?= $(CURDIR)/docker/Dockerfile.ubi8.prod
 DOCKERFILE_DEVEL ?= $(CURDIR)/docker/Dockerfile.devel
 
 BIN_NAME  ?= gpu-operator
-IMAGE     ?= nvidia/gpu-operator
+IMAGE     ?= mperazolo/gpu-operator
 VERSION   ?= 1.2.0
-TAG       ?= latest
+TAG       ?= 1.2.0
 TAG_DEVEL ?= devel
 
 
